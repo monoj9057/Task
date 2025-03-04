@@ -1,0 +1,29 @@
+.app {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 80%;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+.filters button {
+  margin: 5px;
+}
